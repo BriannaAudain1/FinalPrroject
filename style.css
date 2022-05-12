@@ -1,0 +1,66 @@
+
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+    border-right: none;
+}
+
+li a
+{
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.currentLNK)
+{
+    background-color: grey;
+}
+
+.currentLNK
+{
+    background-color: grey;
+}
+
+#navDIV
+{
+    margin-left: 40%;
+    margin-right: 50%;
+    width: 50%;
+    text-align: center;
+    background-color: black;
+}
+
+#header,#Title
+{
+    text-align: center;
+    background-color: yellow;
+}
+
+img
+{
+    margin-left: 25%;
+}
+
+
+
+
+html { 
+    background: url(image/wall.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
